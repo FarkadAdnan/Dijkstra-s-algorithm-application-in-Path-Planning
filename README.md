@@ -35,6 +35,14 @@ In this project, the Dijkstra motion planning algorithm was used on a point robo
 Suppose you would like to find the shortest path between two intersections on a city map: a starting point and a destination. Dijkstra's algorithm initially marks the distance (from the starting point) to every other intersection on the map with infinity. This is done not to imply that there is an infinite distance, but to note that those intersections have not been visited yet. Some variants of this method leave the intersections' distances unlabeled. Now select the current intersection at each iteration. For the first iteration, the current intersection will be the starting point, and the distance to it (the intersection's label) will be zero. For subsequent iterations (after the first), the current intersection will be a closest unvisited intersection to the starting point (this will be easy to find).
 
 
+# Instructions for running the code
+To run the code for finding the path, follow the following commands:
+```
+cd codes
+python Dijkstra_point.py
+cd codes
+python Dijkstra_rigid.py
+```
 
 # Results
 ![Capture1](https://user-images.githubusercontent.com/35774039/200636319-d0ec076f-c9ea-4c4d-a5d3-65606bf2501a.PNG)
